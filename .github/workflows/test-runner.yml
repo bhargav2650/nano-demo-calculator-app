@@ -2,9 +2,9 @@ name: Run All Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, python ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, python ]
 
 jobs:
   build:
